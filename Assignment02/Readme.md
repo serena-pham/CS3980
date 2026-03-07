@@ -1,12 +1,12 @@
-# Assignment 2: Assignment 2: API, JSON, HTML, JavaScript
+# Assignment 2: API, JSON, HTML, JavaScript
 
 The HTML page that accompanies the files in this folder displays the US Population data taken from [Data USA](https://datausa.io/about/api/).
 
-The HTML page can be named as index.html. Upon page load, the US Population data is retrieved from an API endpoint. Then the data is parsed, sorted, and properly displayed in a table. The following screen recording shows an example result.
+The ```index.html``` file defines the structure of the webpage created. Within the file, a table layout is created, and connects to ```script.js```, which fills the table with data from the API. 
 
-Using the given API endpoint,
+In summary, the ``script.js``` file retreives the population data from the API endpoint and fills the table with it. The script uses ```fetch()``` to request the data from the API, and once retreieved, extracts the year and population records. The script then locates the table body in ```index.hmtl``` using the table's ID, and creates rows for each population record.
 
-The ```echo.py``` file aims to mimic a real-world echo. Given inputs ```text``` (a string) and ```repetitions``` (an int), the mountain will echo ```text``` a ```repetitions``` number of times.
+Lastly, for every population record, the script creates a new row and cell for the year and population, and fills the table with the data.
 
 The screenshot below shows the final HTML page.
 
