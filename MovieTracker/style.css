@@ -1,0 +1,218 @@
+ /*importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #14181c;
+  color: #d8e0e8;
+  padding: 2.5rem 1rem;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.add-movie-btn-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.btn-add-new {
+  font-size: 1rem;
+  padding: 0.7rem 1.8rem;
+  border-radius: 8px;
+}
+
+/* Form Card */
+
+.form-card {
+  background: #1c2228;
+  border-radius: 10px;
+  padding: 1.8rem;
+  margin-bottom: 2rem;
+  border: 1px solid #2c3440;
+}
+
+.form-card h2 {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Inputs */
+
+input, textarea {
+  width: 100%;
+  padding: 0.65rem 0.9rem;
+  margin-bottom: 0.9rem;
+  border: 1px solid #2c3440;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #d8e0e8;
+  background: #14181c;
+}
+
+input:focus, textarea:focus {
+  border-color: #00e054;
+  outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #6b7a89;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+/* Form Buttons */
+
+.form-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.4rem;
+}
+
+/* Buttons */
+
+.btn {
+  padding: 0.6rem 1.3rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+/* Primary Button */
+
+.btn-primary {
+  background: #00e054;
+  color: #14181c;
+}
+
+.btn-primary:hover {
+  background: #00c94c;
+}
+
+/* Secondary Button */
+
+.btn-secondary {
+  background: #2c3440;
+  color: #d8e0e8;
+}
+
+.btn-secondary:hover {
+  background: #3a4451;
+}
+
+/* Movie Cards */
+
+.movie-card {
+  background: #1c2228;
+  border-radius: 10px;
+  padding: 1.4rem 1.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #2c3440;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+}
+
+.movie-card h3 {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Fields */
+
+.field-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #6b7a89;
+  margin-bottom: 0.2rem;
+}
+
+.field-value {
+  font-size: 0.9rem;
+  color: #d8e0e8;
+  margin-bottom: 0.9rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+/* Card Buttons */
+
+.card-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.btn-edit {
+  background: #ff8000;
+  color: white;
+}
+
+.btn-edit:hover {
+  background: #e07000;
+}
+
+.btn-delete {
+  background: #ff4d4d;
+  color: white;
+}
+
+.btn-delete:hover {
+  background: #e63e3e;
+}
+
+/* Empty Message */
+
+#no-movies {
+  text-align: center;
+  color: #6b7a89;
+  font-style: italic;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  display: none;
+}
