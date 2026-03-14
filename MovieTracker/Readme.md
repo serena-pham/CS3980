@@ -40,7 +40,7 @@ Here the user will be prompted to input a movie title, the date the movie was wa
 Similarly, the rating of a movie must be between 1-5, and be in 0.5 increments. If an invalid rating is input, say 6, the validation will prevent it from being saved.
 ![](images/date-validation.png)
 
-This is what the page looks like after 2 movies have been addded.
+This is what the page looks like after 2 movies have been added.
 ![](images/movie-list.png)
 
 Once the orange "edit" button is selected, a user can edit their logged movie.
