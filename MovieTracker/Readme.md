@@ -1,6 +1,6 @@
 # Midterm Project: Movie Tracker
 
-The following web application was built using FastAPI and HTML/JavaScript/CSS. It is a movie tracker that allows users to log what movies they've seen and provide details (date wathced, rating, review).
+The following web application was built using FastAPI and HTML/JavaScript/CSS. It is a movie tracker that allows users to log what movies they've seen and provide details (date watched, rating, review).
 
 ## Movie Tracker Web App
 
