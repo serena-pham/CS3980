@@ -50,9 +50,6 @@ A user can also delete a movie by pressing the red "Delete" button. The followin
 ![](images/delete-movie.png)
 
 As a user is interacting with the app, the terminal looks something like this:
-![](iamges/terminal2.png)
-
-
-
+![](images/terminal2.png)
 
 All of the external dependencies necessary for this project are recorded in the ```requirements.txt``` file.
