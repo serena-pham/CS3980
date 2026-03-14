@@ -18,10 +18,10 @@ http://127.0.0.1:8000
 ```
 
 The terminal should look like this after uvicorn has been run:
-![](terminal1.png)
+![](images/terminal1.png)
 
 The FastAPI docs are shown below:
-![](fastapi.png)
+![](images/fastapi.png)
 
 Each movie contains 4 fields that the user can input: ```title```, ```date```, ```rating```, and ```review```.
 
