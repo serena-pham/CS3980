@@ -3,6 +3,7 @@
 The following web application was built using FastAPI and HTML/JavaScript/CSS. It is a movie tracker that allows users to log what movies they've seen and provide details (date watched, rating, review).
 
 ## Movie Tracker Web App
+Ahead of Oscars weekend, I thought it would be fun to create a web application that allows users to track what movies they've watched. 
 
 Users can:
 - Add new movies with date watched, rating, and review
@@ -24,8 +25,10 @@ The FastAPI docs are shown below:
 
 Each movie contains 4 fields that the user can input: ```title```, ```date```, ```rating```, and ```review```.
 
-## Frontend
+## Frontend/Backend
 ```index.html``` is the main page structure that creates the movie tracker container and movie forms. ```style.css``` styles the look of the webpage, and AI was used to help get a "Letterboxd" theme. Lastly, ```main.js``` is the main file that communicates with the FastAPI backend through HTTP requests and is responsible for rendering the interface, managing the form state, and handling CRUD operations.
+
+As for the backend, I followed the in-class to-do demo quite closely, and mirrored it for my app.
 
 ## Movie Tracker Images
 
