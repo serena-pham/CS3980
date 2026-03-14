@@ -38,7 +38,7 @@ Once the web page is opened, this is the initial page that pops up:
 When "+Add New Movie" is selected, the following shows up:
 ![](images/add-movie.png)
 
-Here the user will be prompted to input a movie title, the date the movie was watched, their rating, and their review. The date cannot be in the future, and the application will prevent the movie from being saved if a future date is selected.
+Here the user will be prompted to input a movie title, the date the movie was watched, their rating, and their review. All fields must be input before a movie can be saved. In addition, the date cannot be in the future, and the application will prevent the movie from being saved if a future date is selected.
 
 Similarly, the rating of a movie must be between 1-5, and be in 0.5 increments. If an invalid rating is input, say 6, the validation will prevent it from being saved.
 ![](images/date-validation.png)
