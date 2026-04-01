@@ -1,13 +1,33 @@
 # Assignment 3: MongoDB Setup and Queries
 
-The HTML page that accompanies the files in this folder displays the US Population data taken from [Data USA](https://datausa.io/about/api/).
+## Query 1
 
-The ```index.html``` file defines the structure of the webpage created. Within the file, a table layout is created, and connects to ```script.js```, which fills the table with data from the given API. 
+**Task:** Find all movies with ```runtime``` greater than 200 minutes in ```year``` 1983. The result should include a list of objects sorted by ```runtime``` increasing, and each object only has three fields: ```runtime```, ```title```, ```year```
 
-In summary, the ```script.js``` file retreives the population data from the API endpoint and fills the table with it. The script uses ```fetch()``` to request the data from the API, and once retreieved, extracts the year and population records. The script then locates the table body in ```index.hmtl``` using the table's ID, and creates rows for each population record.
+**Query:**
+```js
+db.movies.find(
+  { runtime: { $gt: 200 }, year: 1983 },
+  { runtime: 1, title: 1, year: 1, _id: 0 }
+).sort({ runtime: 1 })
+```
 
-Lastly, for every population record, the script creates a new row and cell for the year and population, and fills the table with the data.
+**Result:**
 
-The screenshot below shows the final HTML page.
+![query1](query1.png)
 
-![](page.png)
+## Query 2
+
+**Task:** Find all movies after ```year``` 2014 with ```imdb rating``` greater than 9.
+
+**Query:**
+```js
+db.movies.find(
+  { runtime: { $gt: 200 }, year: 1983 },
+  { runtime: 1, title: 1, year: 1, _id: 0 }
+).sort({ runtime: 1 })
+```
+
+**Result:**
+
+![query2](query2.png)
