@@ -1,5 +1,7 @@
 # Assignment 3: MongoDB Setup and Queries
 
+This assignment involves signing up for MongoDB Atlas, installing MongoDB Community Edition, and running queries using MongoDB Compass for the ```sample_mflix``` dataset.
+
 ## Query 1
 
 **Task:** Find all movies with ```runtime``` greater than 200 minutes in ```year``` 1983. The result should include a list of objects sorted by ```runtime``` increasing, and each object only has three fields: ```runtime```, ```title```, ```year```
